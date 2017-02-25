@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Broadcast Yourself</title>
+
+    <!-- Reset and Base -->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/reset_v2.css" type="text/css" />
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/base.css" type="text/css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/style.css" type="text/css">   
+</head>
+<body>
+    <div id="header" class="prod">
+        <h1 id="header_logo">Broadcast Yourself</h1>
+        <ul id="header_menu">
+            <li>
+                <a href="/index.php">Home</a>
+                <ul>
+                    <li class="active"><a href="/index.php">PBR Dashboard</a></li>
+                    <li><a href="/shoutouts.php">Shout Outs</a></li>
+                    <li><a href="/dangerboard.php">Danger Board</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="/docs">Docs</a>
+                <ul>
+                    <li><a href="/docs">Dashboard</a></li>
+                    <li><a href="/docs/project-process">Project Process</a></li>
+                    <li><a href="/docs/dept">Departments</a></li>
+                    <li><a href="/docs/marketing">Marketing</a></li>
+
+                    <li><a href="/docs/handbooks">Handbooks</a></li>
+                    <li><a href="/docs/office">Office / Admin</a></li>
+                </ul>
+            </li>
+            <li class="no_dropdown"><a href="/timesheet.php">Timesheet</a></li>
+        </ul>
+
+        <ul id="header_user">
+            <li>Jay Wineinger</li>
+            <li><a href="">My Profile</a></li>
+            <li class="last"><a href="">Logout</a></li>
+        </ul>
+        <div class="header_search">
+            <form action="/search.php" method="GET">
+                <label for="q"></label>
+                <input type="text" id="q" name="q" value="" title="Quick search..."/>
+            </form>
+        </div>
+    </div>
+    <div id="subheader">
+        <ul>
+            <li class="active"><a href="/index.php">PBR Dashboard</a></li>
+            <li><a href="/shoutouts.php">Shout Outs</a></li>
+            <li><a href="/dangerboard.php">Danger Board</a></li>
+        </ul>
+    </div>
+    <div id="main">
+    </div>
+    <div id="site_footer">
+        <p id="copyright">&copy; 2010 Jay Wineinger, all rights reserved.</p>
+    </div>
+</body>
+</html>

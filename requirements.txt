@@ -1,0 +1,4 @@
+Django==1.2.4
+#readline==6.1.0
+wsgiref==0.1.2
+-e git://github.com/twilio/twilio-python.git#egg=twilio
